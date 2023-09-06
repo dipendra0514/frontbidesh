@@ -1,0 +1,134 @@
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: -1;
+    margin-right: 5rem;
+    object-fit: cover;
+    height: 80vh;
+    filter: drop-shadow(0 0 .75rem rgb(84, 68, 157));
+
+}
+
+@media screen and (max-width:500px ){
+    .bg{
+        height: 60vh;
+        margin-top: .5rem;
+        margin-right: -1rem;
+    }
+    
+}
+@media screen and (max-width:450px ){
+    .bg{
+        height: 50vh;
+        margin-top: 1%;
+        margin-right: -3rem;
+    }
+    
+}
+
+
+.introContent {
+    height: 100vh;
+    width: 100wh;
+    padding: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:850px ){
+    .introContent{
+        height:80vh;
+        /* width: 100vw; */
+        margin-left: -3rem;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (max-width:500px ){
+    .introContent{
+        height: 60vh;
+        width: 120vw;
+        margin-left: -3rem;
+        font-size: smaller;
+    }
+    
+}
+
+@media screen and (max-width:400px ){
+    .introContent{
+        height: 65vh;
+        width: 120vw;
+        margin-left: -3rem;
+    }
+    
+}
+@media screen and (max-width:815 ){
+    .introContent{
+        height: 60vh;
+        width: 100vw;
+        margin-left: -3rem;
+    }
+    
+}
+
+.hello{
+    font-size: 1.50rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: blue;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    color: black;
+}
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -20vw;
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: -4.5vw;
+    }
+    
+}
+
+
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -30vw;
+    }
+}

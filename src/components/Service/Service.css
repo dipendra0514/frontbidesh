@@ -1,0 +1,118 @@
+#service {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+  
+    @media (max-width: 600px) {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  
+  .serviceContents {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .serviceContent {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    justify-content: center;
+  
+    @media (max-width: 600px) {
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .serviceContentImg {
+    object-fit: cover;
+    height: 22rem;
+    width: 11rem;
+    margin-right: 7rem;
+    position: relative;
+    filter: drop-shadow(0 0 .5rem rgb(84, 68, 157));  
+  
+    @media (max-width: 600px) {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+  }
+  
+  .serviceText {
+    padding-top: 15%;
+  }
+  
+  .h4 {
+    color: blue;
+    margin-bottom: -1.5rem;
+  }
+  
+  .p {
+    margin-top: .5rem;
+  }
+  
+  .serviceContentImg1 {
+    object-fit: cover;
+    height:22rem;
+    width: 13rem;
+    margin-left: 8rem;
+    position: relative;
+    filter: drop-shadow(0 0 .5rem rgb(84, 68, 157));  
+    
+    @media screen and (max-width: 860px) {
+      
+      margin-left: 2rem;
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+    @media screen and (max-width: 650px) {
+      
+      margin-left: 20rem;
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      height: auto;
+      margin-left: 2rem;
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+
+
+  }
+  
+  .serviceText1 {
+    padding-top: 15%;
+    float: left;
+    text-align: left;
+
+    @media screen and (max-width: 600px) {
+      /* padding-left: 3rem;
+      padding-right: 3rem ; */
+      padding: 15%;
+     
+
+    }
+  }
+  
