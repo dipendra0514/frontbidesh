@@ -45,7 +45,6 @@ const Service = () => {
           <p className='p'>An account is created with your email and a desired password.</p>
         </div>
       </div>
-s
     </section>
   )
 }

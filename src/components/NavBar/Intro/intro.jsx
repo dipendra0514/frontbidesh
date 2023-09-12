@@ -10,8 +10,8 @@ const Intro = () => {
         <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introText">We are <span className="introName">Bidesh</span> <br />Your Abroad Partner.</span>
-        </div>
          <img src={bg} alt="" className="bg" />
+        </div>
     </section>
   )
 }

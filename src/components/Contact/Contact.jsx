@@ -19,7 +19,8 @@ const Contact = () => {
                 <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='send' className="submitBtn">Submit</button>
                 <div className="links">
-                    <img src={FacebookIcon} alt="Facebook" className="link" />
+                    <a href="https://www.facebook.com/rpsrijanofficial"> <img src={FacebookIcon} alt="Facebook" className="link" /></a>
+                    
                     <img src={TwitterIcon} alt="Twitter" className="link" />
                     <img src={YoutubeIcon} alt="Youtube" className="link" />
                     <img src={InstagramIcon} alt="Instagram" className="link" />

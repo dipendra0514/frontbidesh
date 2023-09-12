@@ -1,0 +1,58 @@
+#founder {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.founderHeader {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.founderText{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    justify-content: center;
+}
+
+.founderImg{
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    border-radius: 2rem;
+    justify-content: center;
+
+}
+.founderPara {
+    display: flex;
+    margin: 0rem;
+    padding: .5rem 1rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    justify-content: center;
+    background-color:rgb(126, 112, 187);
+    color: white;
+    font-weight: 300;
+}
+
+.h3{
+    display: flex;
+    margin: 0rem;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    /* text-align: center; */
+    justify-content: center;
+    /* background-color:rgb(84, 68, 157); */
+}
