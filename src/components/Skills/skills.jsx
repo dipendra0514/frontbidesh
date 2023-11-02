@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <section id="skills">
         <span className="skillsTitle">What We Do?</span>
-        <span className="skillsDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga alias ipsam molestiae reiciendis earum illum aut, animi labore iusto ab! Cum expedita totam nisi accusamus quasi dolorem repellendus odio illum?</span>
+        <span className="skillsDesc"></span>
         <div className="skillsBars">
           <div className="skillBar">
             <img src={UIDesign} alt="UIDesign" className="skillBarImg" />

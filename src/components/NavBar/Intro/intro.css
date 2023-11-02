@@ -7,36 +7,6 @@
     position: relative;
 }
 
-.bg {
-    position: absolute;
-    top: 1rem;
-    right: 0;
-    z-index: -1;
-    margin-right: 5rem;
-    object-fit: cover;
-    height: 80vh;
-    filter: drop-shadow(0 0 .75rem rgb(84, 68, 157));
-
-}
-
-@media screen and (max-width:500px ){
-    .bg{
-        height: 60vh;
-        margin-top: .5rem;
-        margin-right: -1rem;
-    }
-    
-}
-@media screen and (max-width:450px ){
-    .bg{
-        height: 50vh;
-        margin-top: 1%;
-        margin-right: -3rem;
-    }
-    
-}
-
-
 .introContent {
     height: 100vh;
     width: 100wh;
@@ -49,42 +19,16 @@
 
 }
 
-@media screen and (max-width:850px ){
-    .introContent{
-        height:80vh;
-        /* width: 100vw; */
-        margin-left: -3rem;
-        font-size: 5rem;
-        font-weight: 700;
-    }
-    
-}
+.bg {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    z-index: -1;
+    margin-right: 5rem;
+    object-fit: cover;
+    height: 80vh;
+    filter: drop-shadow(0 0 .75rem rgb(84, 68, 157));
 
-@media screen and (max-width:500px ){
-    .introContent{
-        height: 60vh;
-        width: 120vw;
-        margin-left: -3rem;
-        font-size: smaller;
-    }
-    
-}
-
-@media screen and (max-width:400px ){
-    .introContent{
-        height: 65vh;
-        width: 120vw;
-        margin-left: -3rem;
-    }
-    
-}
-@media screen and (max-width:815 ){
-    .introContent{
-        height: 60vh;
-        width: 100vw;
-        margin-left: -3rem;
-    }
-    
 }
 
 .hello{
@@ -112,23 +56,141 @@
     color: black;
 }
 
-@media screen and (max-width:840px) {
-    .bg {
-        right: -20vw;
+.playStore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: auto; 
+  }
+  
+  .qr{
+    width: 100%; 
+    max-width: 10rem; 
+    height: auto;
+  }
+  .dwnImg {
+    width: 100%; 
+    max-width: 15rem; 
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  @media screen and (max-width:1000px ){
+
+    .introContent{
+        height:auto;
+        width: 150vw;
+        margin-left: -3rem;
+        font-size: smaller;
     }
-    .introContent {
-        font-size: 10vw;
-    }
-    .hello {
-        font-size: -4.5vw;
-    }
+                
+    .bg{
+        width: auto;
+        height: 35em;
+        padding-top: 2rem;
+        }
+    .hello{
+        font-size: large;
+    }       
+     .introText{
+        font-size: 1.4rem;
+        }
+                
+    .h6{
+        font-size: 2rem;
+
+    }}
+
+    @media screen and (max-width:800px ){
+
+        .introContent{
+            height:auto;
+            width: 150vw;
+            margin-left: -3rem;
+            font-size: smaller;
+        }
+        
+        .bg{
+          width: auto;
+          height: 20rem;
+          padding-left: 5rem;
+          padding-top: 3rem;
+        }
     
-}
+        .introText{
+            font-size: 1.3rem;
+        }
+        
+        .h6{
+            font-size: 1.5rem;
+        }}
+
+        @media screen and (max-width:600px ){
+
+            .introContent{
+                height:auto;
+                width: 150vw;
+                margin-left: -3rem;
+                font-size: smaller;
+            }
+            
+            .bg{
+               display: none;
+            }
+        
+            .introText{
+                font-size: 1.3rem;
+            }
+            
+            .h6{
+                font-size: 2rem;
+            }}
+        
+            .playStore { @media screen and (max-width:500px) {
+
+                display: inline-block;
+                justify-content: center;
+            
+            }
+            .qr {
+                vertical-align: middle;
+                margin-left: 4rem;
+            }
+            
+            .dwnImg {
+                margin-top: -2rem;
+                margin-left: 1.75rem;
+            }
+            }
+                   
 
 
+@media screen and (max-width:430px) {
 
-@media screen and (max-width:480px) {
-    .bg {
-        right: -30vw;
+    .introContent {
+        padding-top: 0rem;
     }
+
+    .hello {
+        height: -2rem;
+        font-size: 2rem;
+
 }
+}
+
+@media screen and (max-width:415px) {
+
+    .introContent {
+        padding-top: 0rem;
+    }
+
+    .hello {
+        height: -2rem;
+        font-size: 2rem;
+
+}    
+}
+
+
+

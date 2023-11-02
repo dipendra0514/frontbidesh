@@ -1,5 +1,4 @@
 #skills{
-    overflow: hidden;
     width: 100vw;
     max-width: 65rem;
     display: flex;
@@ -8,14 +7,12 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;  
+    padding-top: 0rem;
 }
 
 .skillsTitle{
     font-size: 3rem;
-    font-weight: 600;
-    padding-top: 3rem;
-    margin-bottom: 1.5rem;
-    
+    font-weight: 600;    
 }
 
 .skillsDesc{
