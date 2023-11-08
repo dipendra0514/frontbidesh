@@ -19,6 +19,7 @@
 
 }
 
+
 .bg {
     position: absolute;
     top: 1rem;
@@ -28,9 +29,14 @@
     object-fit: cover;
     height: 80vh;
     filter: drop-shadow(0 0 .75rem rgb(84, 68, 157));
-
+    transform: translateX(60%);
+    transition: transform 1s;
 }
 
+
+.animate{
+    transform: translateX(0);
+}
 .hello{
     font-size: 1.50rem;
     font-weight: 100;
@@ -76,6 +82,32 @@
     padding-top: 1rem;
   }
 
+  @media screen and (max-width:2000px ){
+
+    .introContent{
+        height:auto;
+        width: 150vw;
+        margin-left:10rem;
+        font-size: smaller;
+    }
+                
+    .bg{
+        width: auto;
+        height: 35em;
+        padding-top: 2rem;
+        }
+    .hello{
+        font-size: xx-large;
+    }       
+     .introText{
+        font-size: 1.3rem;
+        }
+                
+    .h6{
+        font-size: 2rem;
+
+    }}
+
   @media screen and (max-width:1000px ){
 
     .introContent{
@@ -94,7 +126,7 @@
         font-size: large;
     }       
      .introText{
-        font-size: 1.4rem;
+        font-size: 1.4 rem;
         }
                 
     .h6{
@@ -188,7 +220,12 @@
     .hello {
         height: -2rem;
         font-size: 2rem;
-
+    
+    .bg{
+        background-repeat: no-repeat;
+        position: absolute;
+        animation: slide 6s linear infinite;
+    }
 }    
 }
 

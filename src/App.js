@@ -6,8 +6,9 @@ import Service from "./components/Service/Service";
 import Contact from './components/Contact/Contact';
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
-  
+
   return (
     <div className="App">
       <Navbar/>
@@ -17,6 +18,7 @@ function App() {
       <Founder/> 
       <Contact/>
       <Footer/>
+  
     </div>
   );
 }
